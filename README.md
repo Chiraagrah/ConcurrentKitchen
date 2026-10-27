@@ -20,7 +20,6 @@ a producer-consumer architecture with two concurrent queues.
 Queue wait time scales linearly with request volume. With 2 chef threads 
 processing ~1.8s per order, orders 3+ begin queuing:
 
-[screenshot here]
 
 ## Build
 Requires Windows (Winsock2). Compile with:
